@@ -1,12 +1,11 @@
 import Button from "./Button";
-import logo from "../assets/img/ingcoLogo.webp";
 
 const Header = () => {
   return (
     <header className="bg-[#FFAF02] h-24 border border-b-2 border-[rgb(0,0,0,0.2)]">
       <div className="container mx-auto px-[30px] grid grid-cols-6 py-2 items-center xl:w-[1280px]">
         <div className="flex col-span-3">
-          <img src={logo} alt="logo" className="mr-1" />
+          <img src="./images/ingcoLogo.webp" alt="logo" className="mr-1" />
           <div className="flex flex-col">
             <p className="text-2xl font-bold">Офіційний</p>
             <p className="text-2xl font-bold">дилер в Україні</p>

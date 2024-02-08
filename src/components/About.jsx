@@ -1,12 +1,14 @@
-import aboutImg from "../assets/img/aboutImg.webp";
-
 const About = () => {
   return (
     <section
       id="about"
       className="w-[1280px] px-[30px] mx-auto flex gap-[80px] mb-20"
     >
-      <img className="w-[633px]" src={aboutImg} alt="Бензопила в магазині" />
+      <img
+        className="w-[633px]"
+        src="./images/aboutImg.webp"
+        alt="Бензопила в магазині"
+      />
       <div>
         <h2 className="text-4xl mb-4 text-center">ПРОПОНУЄМО:</h2>
         <ul className="text-2xl  list-disc flex flex-col gap-[30px]">
