@@ -11,20 +11,20 @@ const Header = () => {
             <p className="text-2xl font-bold">дилер в Україні</p>
           </div>
         </div>
-        <div className="flex flex-col gap-1 col-start-5">
+        <div className="flex flex-col gap-1 col-start-4 ml-auto">
           <Button destination={"#about"}>Про нас</Button>
           <Button destination={"#contacts"}>Контакти</Button>
         </div>
 
-        <address className="flex flex-col gap-1 text-xl not-italic">
+        <address className="flex flex-col gap-1 font-medium text-xl not-italic col-span-2 ml-auto">
           <p>
-            <a className="underline text-blue-500 " href="tel:+380988392107">
+            <a className="text-blue-500 " href="tel:+380988392107">
               098-83-92-107
             </a>{" "}
             Іван
           </p>
           <p>
-            <a className="underline text-blue-500 " href="tel:+380964123628">
+            <a className="text-blue-500 " href="tel:+380964123628">
               096-41-23-628
             </a>{" "}
             Руслан

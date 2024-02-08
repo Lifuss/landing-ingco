@@ -6,19 +6,19 @@ const Footer = () => {
         <div className="flex col-span-3">
           <img src="./images/ingcoLogo.webp" alt="logo" className="mr-1" />
         </div>
-        <div className="col-start-5 flex items-center">
+        <div className="col-start-4 ml-auto flex items-center">
           <Button destination={"#about"}>Про нас</Button>
         </div>
 
-        <address className="flex flex-col gap-1 text-xl not-italic">
+        <address className="flex flex-col gap-1 text-xl not-italic font-medium col-span-2 ml-auto">
           <p>
-            <a className="underline text-blue-500 " href="tel:+380988392107">
+            <a className=" text-blue-500 " href="tel:+380988392107">
               098-83-92-107
             </a>{" "}
             Іван
           </p>
           <p>
-            <a className="underline text-blue-500 " href="tel:+380964123628">
+            <a className="text-blue-500 " href="tel:+380964123628">
               096-41-23-628
             </a>{" "}
             Руслан

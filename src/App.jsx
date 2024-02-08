@@ -4,6 +4,7 @@ import About from "./components/About";
 import CardList from "./components/CardList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Social from "./components/Social";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <CardList />
         <Contact />
+        <Social />
       </main>
       <Footer />
     </>
