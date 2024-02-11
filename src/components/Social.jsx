@@ -14,7 +14,7 @@ const Social = () => {
           </svg>
         </a>
         <a
-          href="https://www.facebook.com/ingco.ukraine"
+          href="https://www.facebook.com/profile.php?id=61556075234289"
           target="_blank"
           rel="noreferrer"
           className="hover:scale-125 transition-all duration-300 ease-in-out"
@@ -24,7 +24,7 @@ const Social = () => {
           </svg>
         </a>
         <a
-          href=""
+          href="https://t.me/+IePpWvT99J02NTJi"
           target="_blank"
           rel="noreferrer"
           className="hover:scale-125 transition-all duration-300 ease-in-out"
