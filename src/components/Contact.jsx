@@ -26,8 +26,11 @@ const Contact = () => {
               </p>
               <p>
                 Email:{" "}
-                <a className="text-blue-300" href="mailto:example@gmail.com">
-                  example@gmail.com
+                <a
+                  className="text-blue-300"
+                  href="mailto:Ivan107moto@gmail.com"
+                >
+                  Ivan107moto@gmail.com
                 </a>
               </p>
             </div>
@@ -65,8 +68,11 @@ const Contact = () => {
               </p>
               <p>
                 Email:{" "}
-                <a className="text-blue-300" href="mailto:example@gmail.com">
-                  example@gmail.com
+                <a
+                  className="text-blue-300"
+                  href="mailto:ruslanapetri@gmail.com"
+                >
+                  ruslanapetri@gmail.com
                 </a>
               </p>
             </div>
