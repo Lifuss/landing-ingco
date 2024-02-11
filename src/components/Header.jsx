@@ -8,7 +8,7 @@ const Header = () => {
           <img src="./images/ingcoLogo.webp" alt="logo" className="mr-1" />
           <div className="flex flex-col">
             <p className="text-2xl font-bold">Офіційний</p>
-            <p className="text-2xl font-bold">дилер в Україні</p>
+            <p className="text-2xl font-bold">імпортер в Україні</p>
           </div>
         </div>
         <div className="flex flex-col gap-1 col-start-4 ml-auto">
