@@ -2,7 +2,7 @@
   "name": "landing-ingco-ua",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lifuss.github.io/landing-ingco/",
+  "homepage": "http://ingco-service.win/",
   "type": "module",
   "scripts": {
     "dev": "vite",
