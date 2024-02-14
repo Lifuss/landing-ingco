@@ -9,7 +9,7 @@ const Contact = ({ isDesktop }) => {
           </h3>
           <div className="flex gap-8 justify-center">
             <div className="text-lg">
-              <h4 className=" font-medium">Адрес:</h4>
+              <h4 className=" font-medium">Адреса:</h4>
               <p className=" w-[260px] mb-4">
                 м. Вижниця, Чернівецька обл. Вул. Українська 100/2
               </p>
@@ -51,7 +51,7 @@ const Contact = ({ isDesktop }) => {
           </h3>
           <div className="flex gap-8 justify-center">
             <div className="text-lg">
-              <h4 className=" font-medium">Адрес:</h4>
+              <h4 className=" font-medium">Адреса:</h4>
               <p className=" w-[250px] mb-4">
                 м. Герца, Чернівецька обл. Вул. Штефана Великого 12
               </p>

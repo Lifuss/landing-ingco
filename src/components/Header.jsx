@@ -9,7 +9,7 @@ const Header = ({ isDesktop }) => {
             <img src="./images/ingcoLogo.webp" alt="logo" className="mr-1" />
             <div className="flex flex-col">
               <p className="text-2xl font-bold">Офіційний імпортер</p>
-              <p className="text-2xl font-bold">продукції в Украtїні</p>
+              <p className="text-2xl font-bold">продукції в Україні</p>
             </div>
           </div>
           <div className="flex flex-col gap-1 col-start-4 ml-auto">
