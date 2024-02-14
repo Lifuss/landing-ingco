@@ -1,8 +1,10 @@
 const Social = () => {
   return (
-    <section className="w-[1280px] px-[30px] mx-auto flex flex-col items-center pb-14">
-      <h2 className="text-4xl font-medium mb-4">Ми у соціальних мережах:</h2>
-      <div className="flex gap-14">
+    <section className="xl:w-[1280px] px-[20px] xl:px-[30px] mx-auto flex flex-col items-center pb-8 xl:pb-14">
+      <h2 className="text-2xl xl:text-4xl font-medium mb-4">
+        Ми у соціальних мережах:
+      </h2>
+      <div className="flex gap-6 xl:gap-16">
         <a
           href=""
           target="_blank"
