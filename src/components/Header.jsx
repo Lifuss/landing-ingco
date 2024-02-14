@@ -39,7 +39,9 @@ const Header = ({ isDesktop }) => {
               Офіційний імпортер продукції{" "}
               <span className="font-bold text-xl">INGCO</span> в Україні
             </h2>
-            <Button destination={"#contacts"}>Контакти</Button>
+            <Button destination={"#contacts"} padding={2}>
+              Контакти
+            </Button>
           </div>
         </div>
       )}

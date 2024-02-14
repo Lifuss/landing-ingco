@@ -17,10 +17,10 @@ function App() {
         <Hero />
         <About isDesktop={isDesktop} />
         <CardList isDesktop={isDesktop} />
-        <Contact />
-        <Social />
+        <Contact isDesktop={isDesktop} />
+        {/* <Social /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

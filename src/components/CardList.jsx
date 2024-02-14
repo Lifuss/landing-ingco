@@ -7,7 +7,6 @@ const CardList = ({ isDesktop }) => {
     if (!isDesktop) {
       new Swiper(".swiper", {
         loop: true,
-        // spaceBetween: 10,
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
@@ -18,6 +17,16 @@ const CardList = ({ isDesktop }) => {
           depth: 100,
           modifier: 1,
           slideShadows: false,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
         },
       });
     }

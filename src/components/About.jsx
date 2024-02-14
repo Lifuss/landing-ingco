@@ -11,7 +11,7 @@ const About = ({ isDesktop }) => {
           alt="Бензопила в магазині"
         />
       )}
-      <div className=" max-xl:bg-gradient-overlay  max-xl:bg-center  max-xl:bg-cover  max-xl:bg-no-repeat  max-xl:w-full max-xl:px-3 pb-4 pt-2">
+      <div className=" max-xl:bg-gradient-overlay max-xl:bg-center  max-xl:bg-cover  max-xl:bg-no-repeat  max-xl:w-full max-xl:px-3 pb-4 pt-2">
         <h2 className="text-2xl font-semibold xl:text-4xl mb-4 text-center">
           ПРОПОНУЄМО:
         </h2>
